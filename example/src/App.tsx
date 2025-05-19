@@ -10,7 +10,7 @@ import {
   SafeAreaView,
 } from 'react-native';
 import * as FileSystem from 'expo-file-system';
-import { Pipeline } from 'react-native-awesome-library-2';
+import { Pipeline } from 'react-native-awesome-library-ralphchen';
 import presets from './presets.json';
 
 export default function App() {
