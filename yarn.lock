@@ -12013,6 +12013,8 @@ __metadata:
     expo-status-bar: ~2.2.3
     expo-system-ui: ^5.0.7
     onnxruntime-react-native: ^1.22.0
+    patch-package: ^8.0.0
+    postinstall-postinstall: ^2.1.0
     react: 19.0.0
     react-dom: 19.0.0
     react-native: 0.79.2
