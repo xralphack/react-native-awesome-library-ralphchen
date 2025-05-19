@@ -1,0 +1,8 @@
+[
+  {
+    "name": "Phi-3-mini",
+    "model": "microsoft/Phi-3-mini-4k-instruct-onnx-web",
+    "onnx_path": "onnx/model_q4.onnx",
+    "options": { "externalData": true }
+  }
+]

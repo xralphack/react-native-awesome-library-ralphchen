@@ -97,11 +97,6 @@
       "<rootDir>/lib/"
     ]
   },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
-  },
   "release-it": {
     "git": {
       "commitMessage": "chore: release ${version}",
@@ -150,5 +145,9 @@
     "languages": "js",
     "type": "library",
     "version": "0.50.3"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "github:mybigday/transformers.js-rn#merge",
+    "text-encoding-polyfill": "^0.6.7"
   }
 }
