@@ -48,7 +48,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xralphack/react-native-awesome-library-ralphchen.git"
+    "url": "git@github.com:xralphack/react-native-awesome-library-ralphchen.git"
   },
   "author": "ralphchen <ralphchen2025@gmail.com> (https://github.com/xralphack)",
   "license": "MIT",
