@@ -1,5 +1,5 @@
 {
-  "name": "react-native-awesome-library-2",
+  "name": "react-native-awesome-library-ralphchen",
   "version": "0.1.0",
   "description": "test",
   "main": "./lib/module/index.js",
@@ -48,9 +48,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xralphack/react-native-awesome-library-2.git"
+    "url": "git+https://github.com/xralphack/react-native-awesome-library.git"
   },
-  "author": "ralphchen <xralphack@gmail.com> (https://github.com/xralphack)",
+  "author": "ralphchen <ralphchen2025@gmail.com> (https://github.com/xralphack)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/xralphack/react-native-awesome-library-2/issues"

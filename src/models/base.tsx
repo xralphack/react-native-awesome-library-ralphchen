@@ -111,15 +111,17 @@ export class Base {
 
   protected argmax(t: Tensor): number {
     const arr = t.data;
+    // @ts-ignore
     const start = t.dims[2] * (t.dims[1] - 1);
     let max = arr[start];
     let maxidx = 0;
-
+    // @ts-ignore
     for (let i = 0; i < t.dims[2]; i++) {
       const val = arr[i + start];
       if (!isFinite(val as number)) {
         throw new Error('found infinitive in logits');
       }
+      // @ts-ignore
       if (val > max) {
         max = val;
         maxidx = i;
@@ -140,6 +142,7 @@ export class Base {
         if (t !== undefined && t.location === 'gpu-buffer') {
           t.dispose();
         }
+        // @ts-ignore
         feed[newName] = outputs[name];
       }
     }

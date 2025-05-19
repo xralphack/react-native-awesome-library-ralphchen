@@ -3,8 +3,10 @@ import {
   env,
   AutoTokenizer,
   PreTrainedTokenizer,
+  // @ts-ignore
 } from '@huggingface/transformers';
 import { TextGeneration as Model } from '../models/text-generation';
+// @ts-ignore
 import { LoadOptions } from '../models/base';
 
 /** Initialization Options */

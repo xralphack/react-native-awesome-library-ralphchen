@@ -12024,9 +12024,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"react-native-awesome-library-2@workspace:.":
+"react-native-awesome-library-ralphchen@workspace:.":
   version: 0.0.0-use.local
-  resolution: "react-native-awesome-library-2@workspace:."
+  resolution: "react-native-awesome-library-ralphchen@workspace:."
   dependencies:
     "@commitlint/config-conventional": ^19.6.0
     "@eslint/compat": ^1.2.7
